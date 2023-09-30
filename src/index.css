@@ -4,28 +4,21 @@
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: -apple-system, BlinkMacSystemFont, 'Raleway', 'Open Sans', Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Inconsolata', 'Lora', Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 :root {
+  --black: #050505;
+  --traffic-black: #1f1f1f;
+  --signal-black: #2d2d2d;
+  --brown-black: #050505;
+  --grey: #757575;
+  --light-grey: #e9e9e9;
+  --smoky-white: #f4f4f4;
   --white: #fff;
-  --saturated-dark-blue: #1b2330;
-  --dark-blue: #181f2b;
-  --very-dark-blue: #0b1524;
-  --pale-blue: #202a3c;
-  --cyan: #62e0d9;
-  --light-blue: #339ecc;
-  --light-red: #ff4242;
-  /* 
-- Dark Blue (intro and email sign up background): #1c2431
-- Dark Blue (main background): #181f2a
-- Dark Blue (footer background): #0b1523
-- Dark Blue (testimonials background): #202a3c
-
-- Cyan (inside call-to-action gradient): #65e2d9
-- Blue (inside call-to-action gradient): #339ecc
-- Light Red (error): #ff4242 */
+  --purple: #a445ed;
+  --red-orange: #ff5252;
 }
 

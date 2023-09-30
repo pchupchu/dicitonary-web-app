@@ -1,37 +1,63 @@
 @font-face {
-  font-family: 'Raleway';
+  font-family: 'Inter';
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url('./Raleway-Regular.woff2') format('woff2'),
-       url('./Raleway-Regular.woff') format('woff');
+  src: url('./Inter-Regular.woff2') format('woff2'),
+       url('./Inter-Regular.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'Raleway';
+  font-family: 'Inter';
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-  src: url('./Raleway-Bold.woff2') format('woff2'),
-       url('./Raleway-Bold.woff') format('woff');
+  src: url('./Inter-Bold.woff2') format('woff2'),
+       url('./Inter-Bold.woff') format('woff');
 }
  
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Inconsolata';
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url('./OpenSans-Regular.woff2') format('woff2'),
-       url('./OpenSans-Regular.woff') format('woff');
+  src: url('./Inconsolata-Regular.woff2') format('woff2'),
+       url('./Inconsolata-Regular.woff') format('woff');
 }
  
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Inconsolata';
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-  src: url('./OpenSans-Bold.woff2') format('woff2'),
-       url('./OpenSans-Bold.woff') format('woff');
+  src: url('./Inconsolata-Bold.woff2') format('woff2'),
+       url('./Inconsolata-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Lora';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('./Lora-Regular.woff2') format('woff2'),
+       url('./Lora-Regular.woff') format('woff');
+}
+ 
+@font-face {
+  font-family: 'Lora';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('./Lora-Bold.woff2') format('woff2'),
+       url('./Lora-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lora';
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  src: url('./Lora-BoldItalic.woff2') format('woff2'),
+       url('./Lora-BoldItalic.woff') format('woff');
 }
  
  
