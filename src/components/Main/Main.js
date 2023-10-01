@@ -1,7 +1,7 @@
 import SearchForm from "../SearchForm/SearchForm";
 import "./Main.css";
 
-function Main({ openPopup }) {
+function Main() {
   return (
     <main className="main">
       <SearchForm />
