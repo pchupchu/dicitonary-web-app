@@ -1,10 +1,10 @@
-import SearchForm from "../SearchForm/SearchForm";
+import Word from "../Word/Word";
 import "./Main.css";
 
 function Main() {
   return (
     <main className="main">
-      <SearchForm />
+      <Word />
     </main>
   );
 }
