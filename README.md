@@ -2,7 +2,7 @@
 
 ![Design preview for the Fylo dark theme landing page challenge](./src/preview.jpg)
 
-This is a solution to the [Dictionary web app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/dictionary-web-app-h5wwnyuKFL). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Dictionary web app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/dictionary-web-app-h5wwnyuKFL). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -16,7 +16,7 @@ This is a solution to the [Dictionary web app challenge on Frontend Mentor](http
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/simple-mobilefirst-solution-to-react-component-using-flexbox-VdvdY-rbX_)
-- [Live Site URL](https://order-summary-component-main-vert-nu.vercel.app/)
+- [Live Site URL](https://dicitonary-web-mt92t7me9-pchupchu.vercel.app/)
 
 ### Built with
 
@@ -30,4 +30,3 @@ This is a solution to the [Dictionary web app challenge on Frontend Mentor](http
 ## Author
 
 - Frontend Mentor - [@pchupchu](https://www.frontendmentor.io/profile/pchupchu)
-
