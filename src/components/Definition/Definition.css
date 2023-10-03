@@ -1,0 +1,50 @@
+.definition {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 31px;
+}
+
+@media screen and (min-width: 768px) {
+  .definition {
+    margin-bottom: 40px;
+  }
+}
+
+.definition__part-of-speech {
+  margin: 0;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .definition__part-of-speech {
+    font-size: 24px;
+  }
+}
+
+.definition__line {
+  margin-top: 8px;
+  border-top: 1px solid var(--light-grey);
+  width: 100%;
+}
+
+.definition__title {
+  margin: 0 0 17px;
+  color: var(--grey);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .definition__title {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+}
+
+.definition__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

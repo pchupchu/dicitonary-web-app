@@ -1,0 +1,6 @@
+.line {
+  margin: 0 24px 24px;
+  box-sizing: border-box;
+  background-color: var(--light-grey);
+  height: 1px;
+}

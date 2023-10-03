@@ -1,0 +1,39 @@
+.source {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 24px 85px;
+  box-sizing: border-box;
+  width: 100%;
+  gap: 8px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .source {
+    flex-direction: row;
+    gap: 20px;
+    padding: 0 40px 118px;
+  }
+}
+
+.source__title {
+  color: var(--grey);
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.source__link {
+  color: var(--signal-black);
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: underline;
+  width: max-content;
+}
+
+.source__link::after {
+  content: url('../../images/icon-new-window.svg');
+  margin-left: 15px;
+}
