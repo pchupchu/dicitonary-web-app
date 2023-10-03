@@ -17,3 +17,7 @@
     color: var(--white);
     background-color: var(--black);
   }
+
+  .app__container {
+    max-width: 736px;
+  }

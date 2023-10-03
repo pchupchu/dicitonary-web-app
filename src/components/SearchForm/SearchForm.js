@@ -1,29 +1,11 @@
-import { useState } from "react";
 import "./SearchForm.css";
 
-function SearchForm() {
-  const [searchOfWord, setSearchOfWord] = useState("keyboard" || "");
-  const [isEmpty, setIsEmpty] = useState(false);
-
-  const handleChange = (e) => {
-    setSearchOfWord(e.target.value);
-    setIsEmpty(false);
-    if (e.target.value.trim().length === 0) {
-      setIsEmpty(true);
-    }
-  };
-
-  function handleSubmit(e) {
-    e.preventDefault();
-    if (searchOfWord.trim().length === 0) {
-      setIsEmpty(true);
-    }
-  }
+function SearchForm({ search, onSubmitSearch, isEmpty, onChangeSearchTerm }) {
   return (
     <div className="search">
       <form
         className={`search__form ${isEmpty ? "search__form_empty" : ""}`}
-        onSubmit={handleSubmit}
+        onSubmit={onSubmitSearch}
         noValidate
       >
         <input
@@ -33,8 +15,8 @@ function SearchForm() {
           name="word"
           placeholder="Search for any word…"
           required
-          value={searchOfWord || ""}
-          onChange={handleChange}
+          value={search || ""}
+          onChange={onChangeSearchTerm}
         />
         <span
           className={`search__form-error ${

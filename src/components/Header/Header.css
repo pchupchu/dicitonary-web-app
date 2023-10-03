@@ -38,7 +38,7 @@
 
 .header__item {
   border: none;
-  color: var(--signal-black);
+  color: inherit;
   font-size: 18px;
   font-weight: 700;
   line-height: 24px; 
@@ -107,4 +107,8 @@
   height: 20px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.header__label_dark-checkbox {
+  background-image: url('../../images/icon-dark-moon.svg');
 }

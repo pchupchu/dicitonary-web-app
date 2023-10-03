@@ -20,7 +20,13 @@ function Noun() {
       </Definition>
       <div className="noun__container">
         <h3 className="noun__title">Synonyms</h3>
-        <span className="noun__synonym">electronic keyboard</span>
+        <a
+          href="https://en.wiktionary.org/w/index.php?title=electronic_keyboard&action=edit&redlink=1"
+          target="blank"
+          className="noun__synonym"
+        >
+          electronic keyboard
+        </a>
       </div>
     </div>
   );
