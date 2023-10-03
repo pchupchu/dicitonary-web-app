@@ -86,7 +86,7 @@
   left: 0;
   top: 0;
   transition: all 0.2s ease-in-out;
-  margin: 2.7px 3px;
+  margin: 3px 3px;
 }
 
 .header__checkbox:checked {

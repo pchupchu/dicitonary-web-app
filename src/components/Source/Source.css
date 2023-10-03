@@ -26,7 +26,7 @@
 }
 
 .source__link {
-  color: var(--signal-black);
+  color: inherit;
   font-size: 14px;
   font-weight: 400;
   text-decoration: underline;

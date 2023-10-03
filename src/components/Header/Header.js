@@ -1,7 +1,7 @@
 import "./Header.css";
 import logo from "../../images/logo.svg";
 
-function Header() {
+function Header({ isChecked, onCheckedMode }) {
   return (
     <header className="header">
       <img className="header__logo" src={logo} alt="logo" />
@@ -20,8 +20,8 @@ function Header() {
               className="header__checkbox"
               id="mode"
               name="mode"
-              // onChange={onCheckedFilm}
-              // checked={isChecked}
+              onChange={onCheckedMode}
+              checked={isChecked}
             />
             <label htmlFor="mode" class="header__label_checkbox"></label>
           </div>
