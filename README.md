@@ -15,7 +15,7 @@ This is a solution to the [Dictionary web app challenge on Frontend Mentor](http
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/simple-mobilefirst-solution-to-react-component-using-flexbox-VdvdY-rbX_)
+- [Solution URL](https://www.frontendmentor.io/solutions/dictionary-web-app-kAm3vN385v)
 - [Live Site URL](https://dicitonary-web-mt92t7me9-pchupchu.vercel.app/)
 
 ### Built with
@@ -23,7 +23,6 @@ This is a solution to the [Dictionary web app challenge on Frontend Mentor](http
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [React](https://github.com/facebook/create-react-app)
 
