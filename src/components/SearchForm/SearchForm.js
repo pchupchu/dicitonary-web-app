@@ -25,7 +25,11 @@ function SearchForm({ search, onSubmitSearch, isEmpty, onChangeSearchTerm }) {
         >
           Whoops, can’t be empty…
         </span>
-        <button className="search__button" type="submit"></button>
+        <button
+          className="search__button"
+          type="submit"
+          aria-label="search button"
+        ></button>
       </form>
     </div>
   );

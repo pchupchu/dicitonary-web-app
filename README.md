@@ -16,7 +16,7 @@ This is a solution to the [Dictionary web app challenge on Frontend Mentor](http
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/dictionary-web-app-kAm3vN385v)
-- [Live Site URL](https://dicitonary-web-mt92t7me9-pchupchu.vercel.app/)
+- [Live Site URL](https://dicitonary-web-app.vercel.app/)
 
 ### Built with
 
