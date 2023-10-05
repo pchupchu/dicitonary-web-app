@@ -11,7 +11,7 @@
 
 @media screen and (min-width: 768px) {
   .header {
-    padding: 58px 40px 52px;
+    padding: 50px 40px;
   }
 }
 
@@ -20,10 +20,10 @@
   height: 36.5px;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
   .header__logo {
-    width: 40px;
-    height: 52px;
+    width: 35px;
+    height: 40px;
   }
 }
 
@@ -37,6 +37,7 @@
 }
 
 .header__item {
+  cursor: pointer;
   border: none;
   color: inherit;
   font-size: 18px;
@@ -45,11 +46,22 @@
   padding-right: 32px;
   appearance: none;
   /* overflow: hidden; */
-  background: url('../../images/icon-arrow-down.svg') no-repeat right; 
+  background: url('../../images/icon-arrow-down.svg') no-repeat right;
 }
 
 .header__item:focus {
   outline: none;
+}
+
+.header__option {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.header__option:hover {
+  color: var(--purple);
 }
 
 .header__checkbox-container {

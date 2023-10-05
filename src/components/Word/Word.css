@@ -10,14 +10,14 @@
 
 @media screen and (min-width: 768px) {
   .word {
-    padding: 0 40px 40px;
+    padding: 0 40px 46px;
   }
 }
 
 .word__container {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
 }
 
 .word__name {

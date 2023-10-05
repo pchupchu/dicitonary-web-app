@@ -1,23 +1,32 @@
 .app {
-    margin: 0 auto;
-    min-height: 100vh;
-    font-size: 14px;
-    font-weight: 400;
-    color: var(--signal-black);
-    background-color: var(--white);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-  }
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Inconsolata', 'Lora', Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  min-height: 100vh;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--signal-black);
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
 
-  .app_dark-mode {
-    color: var(--white);
-    background-color: var(--black);
-  }
+.app_dark-mode {
+  color: var(--white);
+  background-color: var(--black);
+}
 
-  .app__container {
-    max-width: 736px;
-  }
+.app__container {
+  max-width: 820px;
+}
+
+.app__container_mono {
+  font-family: -apple-system, BlinkMacSystemFont, 'Lora', 'Inter', 'Inconsolata', Arial, Helvetica, sans-serif;
+}
+
+.app__container_serif {
+  font-family: -apple-system, BlinkMacSystemFont, 'Inconsolata', 'Lora', 'Inter', Arial, Helvetica, sans-serif;
+}

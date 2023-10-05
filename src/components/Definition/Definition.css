@@ -48,3 +48,9 @@
   padding: 0;
   list-style: none;
 }
+
+@media screen and (min-width: 768px) {
+  .definition__list {
+    padding-left: 22px;
+  }
+}

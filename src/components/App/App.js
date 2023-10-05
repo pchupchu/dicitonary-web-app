@@ -10,10 +10,21 @@ function App() {
   const [searchOfWord, setSearchOfWord] = useState("keyboard" || "");
   const [isEmpty, setIsEmpty] = useState(false);
   const [isNotFound, setIsNotFound] = useState(false);
+  const [selectedOption, setSelectedOption] = useState("Sans Serif");
+  const [isOpen, setIsOpen] = useState(false);
 
-  function handleCheckedMode() {
+  const handleOpen = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const handleOptionClick = (option) => {
+    setSelectedOption(option);
+    setIsOpen(false);
+  };
+
+  const handleCheckedMode = () => {
     setIsDarkModeChecked(!isDarkModeChecked);
-  }
+  };
 
   const handleChangeValue = (e) => {
     setSearchOfWord(e.target.value);
@@ -23,7 +34,7 @@ function App() {
     }
   };
 
-  function handleSubmitForm(e) {
+  const handleSubmitForm = (e) => {
     e.preventDefault();
     console.log(searchOfWord);
     if (searchOfWord === "keyboard") {
@@ -32,14 +43,25 @@ function App() {
     if (searchOfWord !== "keyboard") {
       setIsNotFound(true);
     }
-  }
+  };
+
+  const fontOption =
+    selectedOption === "Serif"
+      ? "app__container_serif"
+      : selectedOption === "Mono"
+      ? "app__container_mono"
+      : "";
 
   return (
     <div className={`app ${isDarkModeChecked ? "app_dark-mode" : ""}`}>
-      <div className="app__container">
+      <div className={`app__container ${fontOption}`}>
         <Header
           isChecked={isDarkModeChecked}
           onCheckedMode={handleCheckedMode}
+          isOpen={isOpen}
+          onOpen={handleOpen}
+          onOptionClick={handleOptionClick}
+          selectedOption={selectedOption}
         />
         <SearchForm
           search={searchOfWord}
